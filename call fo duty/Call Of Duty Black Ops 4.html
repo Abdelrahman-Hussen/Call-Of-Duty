@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <title>Call Of Duty: Black Ops 4</title>
+        <link rel="icon" href="icon.jpg">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/call.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/fonts.css">
+    </head>
+    <body>
+                                        <!-- header-->
+        <input type="checkbox" id="check3">
+           <label for="check3" class="theme">
+                <div class="ball"></div>
+            </label>
+        <div class="body">
+       <div class="middle">
+           <span id="Up"></span>
+       <div class="header">
+            <div class="tit"><span class="site-title">Evil</span> Muffin</div>
+            <div class="link">
+                <a href="../shokry/home%20page.html">Home</a>
+                <span class="border"></span>
+            </div>
+            <div class="link">
+                <a href="../contact us/contact us form.html">Contact Us</a>
+                <span class="border"></span>
+            </div>
+            <div class="link">
+                <a href="../about%20us/About%20Us.html">About</a>
+                <span class="border"></span>
+            </div>
+             <div class="search">
+             <input list="games" type="search" placeholder="Enter the name" class="search-text" id="searchtxt">
+                <span class="search-symb" onclick="search()"><i class="fas fa-search"></i></span>
+                <datalist id="games">
+                    <option >Call Of Duty: Black Ops 4</option>
+                    <option >Assassin's Creed Odyssey</option>
+                    <option >World War Z</option>
+                    <option >Watch Dogs</option>
+                    <option >My Hero One's Justice 2</option>
+                    <option >FIFA</option>
+                    <option >NBA Live</option>
+                    <option >Need For Speed: Most Wanted</option>
+                    <option >Naruto Storm 4</option>
+                </datalist>
+            </div>
+           <script>
+               function search(){
+                   var x = document.getElementById("searchtxt");
+                   var txt = x.value;
+                   if (txt == "Call Of Duty: Black Ops 4"){
+                       window.open("Call Of Duty Black Ops 4.html");
+                   } 
+                   if (txt == "Assassin's Creed Odyssey"){
+                       window.open("../Assassin_s Creed Odyssey/WebPage2.html");
+                   } 
+                   if (txt == "World War Z"){
+                       window.open("../shokry/World War Z.html");
+                   } 
+                   if (txt == "Watch Dogs"){
+                       window.open("../watch dogs/fet.html");
+                   } 
+                   if (txt == "My Hero One's Justice 2"){
+                       window.open("../boku no hero/My Hero One's Justice 2.html");
+                   } 
+                   if (txt == "FIFA"){
+                       window.open("../shokry/Fifa 20.html");
+                   } 
+                   if (txt == "NBA Live"){
+                       window.open("../nba/NBA.html");
+                   } 
+                   if (txt == "Need For Speed: Most Wanted"){
+                       window.open("../NFS Most Wanted 2012/WebPage3.html");
+                   } 
+                   if (txt == "Naruto Storm 4"){
+                       window.open("../Naruto Ultimate Ninja Storm 4/WebPage.html");
+                   } 
+               }
+           </script>
+           <div class="logout"><a href="../login/Log in form.html">Log Out</a></div>
+        </div>
+            <a href="#Up" id="scroll-btn" class="scroll-btn"><i class="fas fa-chevron-up"></i></a>
+        <script>
+            var element = document.getElementById('scroll-btn');
+            window.addEventListener('scroll' , function(){
+               if(window.pageYOffset > 100){
+                element.classList.add("scroll-btn-show");
+            }
+            else{
+                element.classList.remove("scroll-btn-show");
+            } 
+            }); 
+        </script>
+           <div class="cover">
+               <img class="coverimg" src="cover.png">
+               <img class="posterimg" src="poster.jpg">
+               <div class="summery"><span style="font-size: 32px; font-family: 'Do Hyeon', sans-serif;">A</span>verage <span style="font-size: 32px; font-family: 'Do Hyeon', sans-serif;">R</span>ating <span class="rate">8.3 / 10</span><br><br>Summary: Black Ops returns - in your face. Featuring gritty, grounded, fluid Multiplayer combat, a massive Zombies offering with 3 full undead adventures at launch, and Blackout, where the universe of Black Ops comes to life in one huge battle royale experience featuring the largest map in Call of Duty history, signature Black Ops combat, characters, locations and weapons from the entire Black Ops series. Soldier up for all-out combat – tailor made for the Black Ops community. [Treyarch]</div>
+           </div>
+            <p class="head-sup">Images</p>
+           <div id="slider">
+           <input type="radio" name="slider" class="rad" id="s1">
+           <input type="radio" name="slider" class="rad" id="s2">
+           <input type="radio" name="slider" class="rad" id="s3" checked>
+           <input type="radio" name="slider" class="rad" id="s4">
+           <input type="radio" name="slider" class="rad" id="s5">
+           <label for="s1" id="slide1">
+            	<img src="3.jpg" height="100%" width="100%">
+           </label>
+           <label for="s2" id="slide2">
+  	         	<img src="4.jpg" height="100%" width="100%">
+           </label>
+           <label for="s3" id="slide3">
+  	        	<img src="last.jpg" height="100%" width="100%">
+           </label>
+           <label for="s4" id="slide4">
+  	        	<img src="5.jpg" height="100%" width="100%">
+           </label>
+           <label for="s5" id="slide5">
+  	  	       <img src="7.png" height="100%" width="100%">
+           </label>
+            </div>
+           <div class="article">
+               Black Ops 4 is the first Call of Duty title without a traditional single-player campaign mode. Instead, it features the Solo Missions mode, which focuses on the backstories of the game's multiplayer characters, known as "Specialists". The missions take place between Black Ops II and III chronologically. Some of the Specialists also carried over from Black Ops III. The multiplayer mode is the first in the series to not feature automatic health regeneration and introduces both predictive recoil and a new ballistics system. The game included three Zombies maps on release day, four if a special edition of the game, or the Black Ops Pass, was purchased. The locations of the maps include the RMS Titanic, an arena in Ancient Rome, and Alcatraz Federal Penitentiary. The game also introduced a battle royale mode called Blackout, which features up to 100 players in each match. Many characters from this and other Black Ops titles can be used as the player's character model in this mode.<br><br>
+
+               Development for the game started shortly after the release of Black Ops III. Treyarch chose not to create a campaign mode for the game at the beginning of development, instead putting all of their focus on the multiplayer aspect. They cited an increased interest for multiplayer and lack of time spent by the playerbase on the campaign mode as reasons why they shifted their focus. Black Ops 4 utilizes Blizzard's Battle.net platform for the Windows version instead of Steam, the first game in the series to do so. Teasing of the game began in March 2018, with a full reveal taking place later in May. Two betas were held for the game; one for the multiplayer in August and one for Blackout in September. The release date was moved up to October instead of the series' usual November in an attempt to avoid coinciding with the release of other high-profile games.
+           </div>
+           <div class="tral">
+               <p class="head-sup">Trailer</p>
+           <video controls poster="tralllllller.webp" class="trailer"  width="80%";
+                height="30%">
+            <source src="_Black_Ops_4_%E2%80%93_Launch_Gameplay_Trailer(720p).mp4">
+               Your browser doesn't support html5 video 
+           </video>
+           </div>
+           <p class="head-sup">Information</p>
+           <div class="info">
+               <img onclick="show()" src="card1.jpg" style="width: 100%; margin: 0px; border-radius: 5px;cursor: pointer; overflow: hidden;">
+                <div onclick="hide()" id="card" class="info-card">
+                    <table class="table one">
+                        <tr>
+                            <td class="type">Developer(s)</td>
+                            <td class="inf">Treyarch[a]</td>
+                        </tr>
+                        <tr>
+                            <td class="type">Publisher(s)</td>
+                            <td class="inf">Activision</td>
+                        </tr>
+                        <tr>
+                            <td class="type">Director(s)</td>
+                            <td class="inf">Jason Blundell Dan Bunting</td>
+                        </tr>
+                        <tr>
+                            <td class="type">Artist(s)</td>
+                            <td class="inf">Bruce Hall</td>
+                        </tr>
+                        <tr>
+                            <td class="type">Writer(s)</td>
+                            <td class="inf">Dave Anthony Craig Houston</td>
+                        </tr>
+                        <tr>
+                            <td class="type">Composer(s)</td>
+                            <td class="inf">Jack Wall</td>
+                        </tr>
+                        <tr>
+                            <td class="type">Series</td>
+                            <td class="inf">Call of Duty</td>
+                        </tr>
+                        <tr>
+                            <td class="type">Engine</td>
+                            <td class="inf">IW engine</td>
+                        </tr>
+                         <tr>
+                            <td class="type">Platform(s)</td>
+                            <td class="inf">Microsoft Windows - PlayStation 4 - Xbox One</td>
+                        </tr>
+                        </table>
+                        <table  class="table two">
+                         <tr>
+                            <td class="type">Minimum Requirements (Processor)</td>
+                            <td class="inf">Intel Core i3-4340 or AMD FX-6300</td>
+                        </tr>
+                         <tr>
+                            <td class="type">Ultra Specifications (Processor)</td>
+                            <td class="inf">i7-8700K or AMD Ryzen 2700X</td>
+                        </tr>
+                         <tr>
+                            <td class="type">Minimum Requirements (Video)</td>
+                            <td class="inf">GeForce GTX 660 2GB / GeForce<br> GTX 1050 2GB or Radeon HD 7950 2GB</td>
+                        </tr>
+                         <tr>
+                            <td class="type">Ultra Specifications (Video)</td>
+                            <td class="inf">GeForce GTX 1080Ti</td>
+                        </tr>
+                         <tr>
+                            <td class="type">Minimum Requirements (RAM)</td>
+                            <td class="inf">8 GB</td>
+                        </tr>
+                         <tr>
+                            <td class="type">Ultra Specifications (RAM)</td>
+                            <td class="inf">16 GB</td>
+                        </tr>
+                        <tr>
+                            <td class="type">Genre(s)</td>
+                            <td class="inf">First-person shooter, battle royale</td>
+                        </tr>
+                         <tr>
+                            <td class="type">Release</td>
+                            <td class="inf">October 12, 2018</td>
+                        </tr>
+                    </table>
+               </div>
+           </div>
+           <script>
+               function show(){
+                   document.getElementById("card").style.width ="100%";
+                   document.getElementById("card").style.height ="100%";
+                   document.getElementById("card").style.borderRadius ="2px";
+                   document.getElementById("card").style.padding ="10px";
+               }
+               function hide(){
+                   document.getElementById("card").style.width ="10px";
+                   document.getElementById("card").style.height ="10px";
+                   document.getElementById("card").style.top ="-10px";
+                   document.getElementById("card").style.bottom ="-10px";
+               }
+           </script>
+        <br>                           <!-- footer -->
+         <footer class="foot">
+            <br>
+           <ul class="fstlist">
+                <li class="flh">Epic Games</li>
+                <li><a href="Call Of Duty Black Ops 4.html" class="a">Call Of Duty : Black Ops 4</a></li>
+                <li><a href="../Assassin_s Creed Odyssey/WebPage2.html" class="a">Assassin's Creed Odyssey</a></li>
+                <li><a href="../shokry/World War Z.html" class="a">World War Z</a></li>
+                <li><a href="../watch dogs/fet.html" class="a">Watch Dogs</a></li>
+            </ul>
+            <ul class="fstlistf">
+                <li class="flh">Anime Games</li>
+                <li><a href="../Naruto Ultimate Ninja Storm 4/WebPage.html" class="a">Naruto Storm 4</a></li>
+                <li><a href="../boku no hero/My Hero One's Justice 2.html" class="a">My Hero One's Justice 2</a></li>
+            </ul>
+            <ul class="fstlistf">
+                <li class="flh">Sports Games</li>
+                <li><a href="../shokry/Fifa 20.html" class="a">Fifa 20</a></li>
+                <li><a href="../nba/NBA.html" class="a">NBA Live</a></li>
+                <li><a href="../NFS Most Wanted 2012/WebPage3.html" class="a">Need For Speed : Most Wanted</a></li>
+            </ul>
+            <ul class="fstlistf">
+                <li class="flh">Page</li>
+                <li><a href="../shokry/home page.html" class="a">Home</a></li>
+                <li><a href="../login/Log in form.html" class="a">Login</a></li>
+                <li><a href="../shokry/sign up.html" class="a">SignUp</a></li>
+                <li><a href="../about us/About Us.html" class="a">About</a></li>
+            </ul>
+             <div class="social">
+                 <span class="sym"><i class="fab fa-facebook-f"></i></span>
+                 <span class="sym"><i class="fab fa-youtube"></i></span>
+                 <span class="sym"><i class="fab fa-twitter"></i></span>
+                 <span class="sym"><i class="fab fa-instagram"></i></span>
+                 <span class="sym"><i class="fab fa-steam-symbol"></i></span>
+                 <span class="sym"><i class="fab fa-twitch"></i></span>
+             </div>
+        </footer>
+        <div class="copy"> made with great IT team from FCAAI helwan:) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;copy right &nbsp;&nbsp;&nbsp;Terms &amp; privecy</div>
+         </div> 
+            </div>
+    </body>
+</html>
